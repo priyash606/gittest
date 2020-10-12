@@ -1,0 +1,145 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+#header{
+  width: 100%;
+  height: 160px;
+  border: 5px solid black;
+  
+  text-transform: capitalize;
+  font-family: andalus;
+  background-color: black;
+
+}
+h1{
+
+  margin-left: 180px;
+}
+
+#navbarSupportedContent{
+  border: 1px solid black;
+  background-color: black;
+  margin-top: -40px;
+  margin-left: 100px;
+    
+}
+.navbar {
+  transition: top 0.3s;
+}
+#navbarSupportedContent ul li a{
+
+font-size: 17px;
+  background-color: black;
+  color: white;
+}
+form.example button {
+
+  background: black;
+  color: white;
+  font-size: 15px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:black {
+  background: #0b7dda;
+}
+.button{
+  border: none;
+  color: white;
+height: auto;
+
+  padding: 8px 20px;
+  font-size: 16px;
+  margin: 20px;
+
+}
+
+.button2{
+ margin-left: -135px;
+  background-color: #008CBA;
+}
+#secondheader{
+  padding-top: 70px;
+
+  font-family: andalus;
+  background-color:  #008CBA;
+  height: 330px;
+}
+#thirdheader{
+  padding-top: 55px;
+}
+#fourthheader{
+  padding-top: 55px;
+}
+
+
+ .parallax {
+
+ 
+  /* The image used */
+  background-image: url("wallpaper.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#fifthheader{
+    padding-top: 65px;
+    padding-left: 110px;
+
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 20%;
+  margin-top: 70px;
+  margin-left: 600px;
+}
+#eightheader{
+
+  /* The image used */
+   background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('2.jpg');
+
+  /* Set a specific height */
+  min-height: 600px; 
+
+  /* Create the parallax scrolling effect */
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row1 {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+/* Style the counter cards */
+.card {
+  
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
